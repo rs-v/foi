@@ -8,6 +8,7 @@ for(i1=0;i1<ck;i1++){
 for(i=0;i<6000;i++);
 
 }
+return 0;
 }
 int  prtc(char pk[],int am){
 	int  i;
@@ -22,7 +23,7 @@ for(i=0;i<am;i=i+1){
 	
 	
 	
-	
+return 0;	
 	
 }
 int  main(){
@@ -38,7 +39,7 @@ prtc(a4,10);
 prtc(a5,13); 
 printf("hhh");
  
-	
+return 0;	
 }
 
 

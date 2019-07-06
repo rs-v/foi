@@ -15,7 +15,7 @@ for(i=0;i<am;i=i+1){
 	printf(">");
 	Sleep(100);}
 	printf("]OK\n");
-	printf("---------------\n");
+	printf("---------------\n")
 	
 	
 	

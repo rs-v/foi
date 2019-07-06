@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-char an[]="mm",a1[]="mm",a2[]="nmm",a3[]="hh",a4[]="consulting",a5[]="hhh",a6[]="jj";
+char an[]="检查环境",a1[]="抽取游戏核心",a2[]="获取秘钥",a3[]="解码",a4[]="consulting",a5[]="授权检验",a6[]="检验失败";
 int Sleep(int  cn){
 int i,i1,ck=cn*100;
 for(i1=0;i1<ck;i1++){
@@ -27,8 +27,8 @@ return 0;
 	
 }
 int  main(){
-	printf("   hhh\n");
-	printf("   jjj");
+	printf(" 本程序为技术交流所用,使用必须同意相关条约\n");
+	printf("  请输入y以确认:");
 	getchar() ;
 prtc(an,5);
 
@@ -37,7 +37,7 @@ prtc(a2,13);
 prtc(a3,15);
 prtc(a4,10); 
 prtc(a5,13); 
-printf("hhh");
+printf("请求授权失败!\n请检查授权情况");
  
 return 0;	
 }
